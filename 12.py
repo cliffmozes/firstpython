@@ -1,6 +1,3 @@
-a = 1
-
-if a > 1:
-    print("Hello")
-else:
-    print("End")
+age = input("Enter your age: ")
+myage= int(age) + 5
+print(myage)
