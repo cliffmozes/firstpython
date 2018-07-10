@@ -16,4 +16,19 @@ b = minutes_to_hours(int(input_mins))
 
 print(hours_to_seconds(b))
 
+#Convert celcious to string
+def celcious_to_farenheight(degrees):
+    farenheight = degrees *(9/5) + 32
+    return farenheight
 
+degrees = input("Please enter the temp: ")
+
+print("The temp in Farenheight is",celcious_to_farenheight(int(degrees)))
+
+#length of string function
+def length(word):
+    wordlength = len(word)
+    return wordlength
+word = input("Please enter the word: ")
+
+print("The length of th word is",length(word))
