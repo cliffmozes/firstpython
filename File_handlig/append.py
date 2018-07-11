@@ -1,7 +1,7 @@
 #opening a file and assigning it to a variable
-file = open("fruits.txt", "r")
+file = open("fruits.txt", "a")
+file.write("kachumbari")
 #Assisgning file varianle into anothe variable
-content = file.readlines()
+#content = file.readlines()
 file.close()
-for i in content:
-    print(len(i.strip()))
+ 
