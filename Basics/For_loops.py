@@ -23,6 +23,7 @@ for n in c:
 temp1=int(input("Enter Temp1: "))
 temp2=int(input("Enter Temp2: "))
 temp3=int(input("Enter Temp3: "))
+
 def celcious_to_farenheight(degrees):
     farenheight = degrees * (9/5) + 32
     return farenheight
@@ -51,17 +52,18 @@ for f,s in zip(fnames,snames):
 #For loop in function
 
 temp=[10,-10,-289,100]
-def celcious_to_farenheight(degrees):
+
+def celcius_to_farenheight(degrees):
     farenheight = degrees * (9/5) + 32
     return farenheight
 
 
 for tem in temp:
-    if celcious_to_farenheight(tem) < -275:
+    if celcius_to_farenheight(tem) < -275:
         
         print("Temp is too low")
         
     else:
             
-        print(celcious_to_farenheight(tem))
+        print(celcius_to_farenheight(tem))
 
